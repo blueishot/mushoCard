@@ -9,6 +9,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
+    background-color: rgb(97, 94, 94);
 }
 
 .cardTitle {
@@ -116,6 +117,10 @@ body {
     cursor: pointer;
 }
 
-.icons img:target {
+.icons img:focus {
     filter: grayscale(0%);
+}
+
+*:focus {
+    all: unset;
 }
