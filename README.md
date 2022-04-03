@@ -84,4 +84,4 @@ $ cd mushoCard
     <li>HTML</li>
     <li>CSS</li>
     <li>Javascript</li>
-    <li>RGABColorPicker</li>
+    <li>ImageColorPicker</li>
